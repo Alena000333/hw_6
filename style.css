@@ -226,3 +226,35 @@ a {
     margin-top: 50px;
 
   }
+
+  @media(min-width:768px) 
+  and (max-width:1024px){
+      img{
+    width: 100%;
+  }
+    body{
+      display: flex;
+      flex-direction: row;
+    }
+    .product-box__content {
+      margin: 48px 16px ;
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      justify-content: center;
+      gap: 16px;
+    }
+    .header{
+      padding-left: 32px;
+      padding-right: 40px;
+  
+  }
+  .sale {
+
+    padding-left: 16px;
+    border-right-width: 0px;
+    padding-right: 16px;
+    display: grid;
+    gap: 16px;
+  }
+
+  }
